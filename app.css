@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 85%;
+    height: 70%;
+    padding: 2rem 2rem;
+    box-shadow: rgb(35 55 80 / 30%) 0px 6px 12px;
+    border-radius: 8px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.element label {
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+
