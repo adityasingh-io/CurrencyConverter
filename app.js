@@ -33,7 +33,7 @@ function addUI(currencies) {
 
 transferBtn.addEventListener("click", fetchResults)
 
-// Get the selected currencies and their values
+// Get the selected currencies and their values 
 function fetchResults() {
     const API = "72601f3aa440257571a608be"
     const url = `https://v6.exchangerate-api.com/v6/${API}/latest/`
