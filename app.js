@@ -51,6 +51,10 @@ function fetchResults() {
         currencyCalc(fromEl, toEl)
         
     })
+
+    .finally((data) => {
+        console.log("this is the loader")
+    })
 }
 
 function currencyCalc(from, to){
