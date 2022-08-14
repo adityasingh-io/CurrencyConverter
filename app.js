@@ -60,3 +60,5 @@ function fetchResults() {
 function currencyCalc(from, to) {
   console.log(amount.value * from.conversion_rates[toEl.value]);
 }
+
+// Testing
