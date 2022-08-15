@@ -37,4 +37,8 @@ body {
     font-weight: 700;
 }
 
-
+.element input {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
